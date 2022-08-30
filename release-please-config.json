@@ -7,7 +7,14 @@
   "packages": {
     "src/Google.Cloud.Functions.Framework": {
       "component": "Google.Cloud.Functions.Framework",
-      "changelog-path": "/docs/history.md"
+      "changelog-path": "/docs/history.md",
+      "extra-files": [
+        {
+          "type": "xml",
+          "path": "/src/CommonProperties.xml",
+          "xpath": "//Project/PropertyGroup/Version"
+        }
+      ]
     },
     "src/Google.Cloud.Functions.Hosting": {
       "component": "Google.Cloud.Functions.Hosting",
