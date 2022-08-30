@@ -10,7 +10,14 @@
       "changelog-path": "/docs/history.md"
     },
     "src/Google.Cloud.Functions.Hosting": {
-      "component": "Google.Cloud.Functions.Hosting"
+      "component": "Google.Cloud.Functions.Hosting",
+      "extra-files": [
+        {
+          "type": "xml",
+          "path": "/examples/Google.Cloud.Functions.Examples.AdvancedDependencyInjection/Google.Cloud.Functions.Examples.AdvancedDependencyInjection.csproj",
+          "xpath": "//Project/ItemGroup/PackageReference[@Include=\"Google.Cloud.Functions.Hosting\"]/@Version"
+        }
+      ]
     },
     "src/Google.Cloud.Functions.Templates": {
       "component": "Google.Cloud.Functions.Templates"
