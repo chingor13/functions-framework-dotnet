@@ -176,7 +176,7 @@
   "plugins": [
     {
       "type": "linked-versions",
-      "group-name": "Google.Cloud.Functions",
+      "groupName": "Google.Cloud.Functions",
       "components": [
         "Google.Cloud.Functions.Framework",
         "Google.Cloud.Functions.Hosting",
