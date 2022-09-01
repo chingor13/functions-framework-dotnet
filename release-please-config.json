@@ -21,19 +21,14 @@
       "extra-files": [
         {
           "type": "xml",
-          "path": "/examples/**/*.csproj",
+          "path": "/examples/**/*.??proj",
           "glob": true,
           "xpath": "//Project/ItemGroup/PackageReference[@Include=\"Google.Cloud.Functions.Hosting\"]/@Version"
         },
         {
           "type": "xml",
-          "path": "/examples/**/*.fsproj",
+          "path": "/src/Google.Cloud.Functions.Templates/templates/*.??proj",
           "glob": true,
-          "xpath": "//Project/ItemGroup/PackageReference[@Include=\"Google.Cloud.Functions.Hosting\"]/@Version"
-        },
-        {
-          "type": "xml",
-          "path": "/examples/**/*.vbproj",
           "xpath": "//Project/ItemGroup/PackageReference[@Include=\"Google.Cloud.Functions.Hosting\"]/@Version"
         }
       ]
