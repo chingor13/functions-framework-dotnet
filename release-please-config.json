@@ -21,19 +21,8 @@
       "extra-files": [
         {
           "type": "xml",
-          "path": "/examples/**/*.csproj",
+          "path": "/examples/**/*.(c|f|v)sproj",
           "glob": true,
-          "xpath": "//Project/ItemGroup/PackageReference[@Include=\"Google.Cloud.Functions.Hosting\"]/@Version"
-        },
-        {
-          "type": "xml",
-          "path": "/examples/**/*.fsproj",
-          "glob": true,
-          "xpath": "//Project/ItemGroup/PackageReference[@Include=\"Google.Cloud.Functions.Hosting\"]/@Version"
-        },
-        {
-          "type": "xml",
-          "path": "/examples/**/*.vbproj",
           "xpath": "//Project/ItemGroup/PackageReference[@Include=\"Google.Cloud.Functions.Hosting\"]/@Version"
         }
       ]
